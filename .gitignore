@@ -1,0 +1,33 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+
+# Firebase — never commit your real options if you replace the placeholder
+# lib/firebase_options.dart
+
+# Android
+android/.gradle
+android/local.properties
+android/key.properties
+android/app/google-services.json
+android/app/*.jks
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/GoogleService-Info.plist
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+**/.DS_Store
