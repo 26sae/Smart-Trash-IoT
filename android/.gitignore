@@ -1,14 +1,33 @@
-gradle-wrapper.jar
-/.gradle
-/captures/
-/gradlew
-/gradlew.bat
-/local.properties
-GeneratedPluginRegistrant.java
-.cxx/
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
 
-# Remember to never publicly share your keystore.
-# See https://flutter.dev/to/reference-keystore
-key.properties
-**/*.keystore
-**/*.jks
+# Firebase — never commit your real options if you replace the placeholder
+# lib/firebase_options.dart
+
+# Android
+android/.gradle
+android/local.properties
+android/key.properties
+android/app/google-services.json
+android/app/*.jks
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/GoogleService-Info.plist
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+**/.DS_Store
